@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Activity1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CourseCode:"/>
+            <EditText
+                android:id="@+id/AS1_CourseCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CourseName:"/>
+            <EditText
+                android:id="@+id/AS1_CourseName"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DayOfWeek:"/>
+            <EditText
+                android:id="@+id/AS1_DayOfWeek"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                />
+        </TableRow>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Student_ListOfCourses"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"/>
+        <Button
+            android:id="@+id/Search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"/>
+        <Button
+            android:id="@+id/ViewAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View All Courses"/>
+        <Button
+            android:id="@+id/enroll"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="enroll"/>
+
+
+
+    </TableLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

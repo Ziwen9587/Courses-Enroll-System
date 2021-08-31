@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pj_deliverable01">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PJ_Deliverable01">
+        <activity android:name=".Instructor_CheckStudentList"></activity>
+        <activity android:name=".Student_Activity2_Unenroll" />
+        <activity android:name=".Student_Activity1" />
+        <activity android:name=".Admin_coursePageActivity" />
+        <activity android:name=".Administrator_OperationOnIns" />
+        <activity android:name=".Administrator_OperationOnStu" />
+        <activity android:name=".Instructor_MainMenu" />
+        <activity android:name=".Student_MainMenu" />
+        <activity android:name=".Instructor_SignUP" />
+        <activity android:name=".Student_SignUP" />
+        <activity android:name=".Administrator_Main_Page" />
+        <activity android:name=".Instructor_ModifyCourse" />
+        <activity android:name=".Instructor_ManageCourse" />
+        <activity android:name=".Instructor_coursePageActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

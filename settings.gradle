@@ -1,0 +1,2 @@
+rootProject.name = "PJ_Deliverable#01"
+include ':app'
